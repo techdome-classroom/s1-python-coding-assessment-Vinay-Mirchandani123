@@ -10,7 +10,5 @@ def decode_message( s: str, p: str) -> bool:
                 return False
             else:
                 continue
-                   
-                return False
   
         return False
