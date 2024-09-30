@@ -6,6 +6,7 @@ class Solution:
             return 0
         rows = len(grid)
         cols = len(grid[0])
+        count = 0
         
                     
         return 0
