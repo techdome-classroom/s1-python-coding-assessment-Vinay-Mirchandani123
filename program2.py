@@ -8,7 +8,7 @@ def decode_message( s: str, p: str) -> bool:
             if p[i] == '*':
                 countStar+=1
             elif p[i] == '?':
-                continue
+                countQuestion+=1
             elif p[i] == s[i]:
                 continue
             else:
