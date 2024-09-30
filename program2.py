@@ -9,7 +9,7 @@ def decode_message( s: str, p: str) -> bool:
                 continue
             elif p[i] == s[i]:
                 continue
-            else:
+            elif :
                 return False
             
   
