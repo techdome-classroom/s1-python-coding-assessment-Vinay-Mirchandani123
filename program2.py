@@ -8,7 +8,8 @@ def decode_message( s: str, p: str) -> bool:
                 if p[i] == "?":
                     continue
                 return False
-            else
+            else:
+                
                    
                 return False
   
