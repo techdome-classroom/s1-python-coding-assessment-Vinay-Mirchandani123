@@ -18,6 +18,3 @@ def decode_message( s: str, p: str) -> bool:
                 dp[i][j] = dp[i - 1][j - 1]
 
     return dp[m][n]
-
-def isMatch(message, pattern):
-    
