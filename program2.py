@@ -17,4 +17,4 @@ def decode_message( s: str, p: str) -> bool:
                         elif pattern[j - 1] == '?' or pattern[j - 1] == message[i - 1]:
                                 dp[i][j] = dp[i - 1][j - 1]
 
-    return dp[m][n]
+        return dp[m][n]
