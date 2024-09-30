@@ -4,6 +4,7 @@ def decode_message( s: str, p: str) -> bool:
         for i in range(len(p)-1,-1,-1):
             
             if p[i] == '*':
+                count
                 continue
             elif p[i] == '?':
                 continue
