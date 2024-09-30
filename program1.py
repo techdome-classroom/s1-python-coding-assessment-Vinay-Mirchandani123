@@ -6,7 +6,7 @@ class Solution:
             return 0
         def dfs(grid, i, j):
             if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == 'W':
-            return
+                return
         grid[i][j] = 'W'  # Mark the landmass as visited
         dfs(grid, i + 1, j)  # Check down
         dfs(grid, i - 1, j)  # Check up
