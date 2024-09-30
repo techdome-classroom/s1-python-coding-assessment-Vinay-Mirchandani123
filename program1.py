@@ -14,10 +14,6 @@ class Solution:
                     count += 1
                     
         return 0
-def numIslands(grid):
-    if not grid:
-        return 0
-
     def dfs(grid, i, j):
         if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == 'W':
             return
