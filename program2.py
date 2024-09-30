@@ -1,8 +1,8 @@
 def decode_message( s: str, p: str) -> bool:
 
 # write your code here
-        count* = 0
-        count
+        countStar = 0
+        countQues
         for i in range(len(p)-1,-1,-1):
             
             if p[i] == '*':
