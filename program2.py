@@ -5,7 +5,7 @@ def decode_message( s: str, p: str) -> bool:
             
             if p[i] == '*':
                 continue
-            if p[i] == '?':
+            else if p[i] == '?':
                 continue
             
   
