@@ -1,7 +1,7 @@
 def decode_message( s: str, p: str) -> bool:
 
 # write your code here
-        for i=ln(p) in range(len(p)):
+        for i in range(len(p)):
             
             if p[i] == '*':
                 continue
