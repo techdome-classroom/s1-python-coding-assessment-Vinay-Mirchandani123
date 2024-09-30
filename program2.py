@@ -8,7 +8,7 @@ def decode_message( s: str, p: str) -> bool:
                 if i == len(s)-1:
                     return False
                 continue
-            if p[i] != s[i]:
+            
                 return False
   
         return False
